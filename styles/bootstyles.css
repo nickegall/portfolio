@@ -1,0 +1,68 @@
+.background {
+    background-image: url('../images/background1.jpg');  
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+a {
+    color:  #e6a756;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cap {
+    background-color: rgba(255, 255, 255, 0.692);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.common {
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 3;
+}
+
+.tableau {
+    top: 114px;
+    bottom: 150px;
+    left: 114px;
+    right: 114px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 75px;
+    left: 5px;
+    right:5px;
+    font-size: 9px;
+    color: #e6a756;
+    text-align: center;
+    position: fixed;
+}
+
+.right {
+    float: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    background-color:  rgba(47, 23, 15, 0.623);
+}
